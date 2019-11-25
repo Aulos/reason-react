@@ -24,7 +24,7 @@ DOM elements allow you to pass refs to track specific elements that have been re
 let make = () => {
   let divRef = React.useRef(Js.Nullable.null);
 
-  React.useEffect(() => {
+  React.useEffect0(() => {
     doSomething(divRef);
   });
 
